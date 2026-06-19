@@ -20,11 +20,47 @@ const projects = ref([
 </script>
 
 <style scoped>
-.container { max-width: 1000px; margin: 4rem auto; padding: 0 2rem; }
-h1 { color: #2c3e50; margin-bottom: 2rem; text-align: center; }
-.projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-.project-card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-.project-card h3 { margin-top: 0; color: #42b883; }
-.project-card p { color: #666; margin: 1rem 0; }
-.tech-badge { background: #e8f5e9; color: #2e7d32; font-size: 0.8rem; padding: 0.3rem 0.6rem; border-radius: 4px; font-weight: bold; }
+.container {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #42b883;
+}
+
+.project-card p {
+  color: #666;
+  margin: 1rem 0;
+}
+
+.tech-badge {
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
 </style>
